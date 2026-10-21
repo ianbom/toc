@@ -14,7 +14,11 @@ export function validateContact(fields: ContactFields): Partial<Record<keyof Con
     if (!fields[field].trim()) errors[field] = 'Mohon lengkapi kolom ini.';
   }
   if (fields.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email)) errors.email = 'Masukkan alamat email yang valid.';
-  if (fields.phone && !/^\+?[\d\s().-]{7,25}$/.test(fields.phone)) errors.phone = 'Masukkan nomor telepon yang valid.';
+  const phoneDigits=fields.phone.replace(/\D/g,'').length;
+  if (fields.phone && (!/^\+?[\d\s().-]{7,25}$/.test(fields.phone) || phoneDigits<7 || phoneDigits>15)) errors.phone = 'Masukkan nomor telepon yang valid.';
+  for(const field of ['company','business','region','name','email'] as const){
+    if(fields[field].length>200)errors[field]='Maksimal 200 karakter.';
+  }
   if (fields.message.length > 3000) errors.message = 'Pesan maksimal 3000 karakter.';
   return errors;
 }

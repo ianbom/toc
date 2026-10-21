@@ -1,0 +1,59 @@
+{
+  "origin": "http://127.0.0.1:3127",
+  "results": [
+    {
+      "path": "/",
+      "status": 200
+    },
+    {
+      "path": "/tentang",
+      "status": 200
+    },
+    {
+      "path": "/produk",
+      "status": 200
+    },
+    {
+      "path": "/layanan",
+      "status": 200
+    },
+    {
+      "path": "/artikel",
+      "status": 200
+    },
+    {
+      "path": "/kontak",
+      "status": 200
+    },
+    {
+      "path": "/produk/chester-machine-center",
+      "status": 200
+    },
+    {
+      "path": "/produk/peralatan-medis",
+      "status": 200
+    },
+    {
+      "path": "/produk/peralatan-pendidikan",
+      "status": 200
+    },
+    {
+      "path": "/produk/earthquake-simulator-unit",
+      "status": 200
+    },
+    {
+      "path": "/artikel/apa-itu-earthquake-simulator-unit",
+      "status": 200
+    },
+    {
+      "path": "/artikel/mengapa-jarum-suntik-harus-diganti-setelah-dipakai",
+      "status": 200
+    },
+    {
+      "path": "/artikel/merayakan-46-tahun-pt-tamara-overseas-corporindo-jejak-sukses-dan-harapan-masa-depan",
+      "status": 200
+    }
+  ],
+  "invalidRoutes": 3,
+  "seoRoutes": 2
+}

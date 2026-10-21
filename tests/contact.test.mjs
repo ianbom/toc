@@ -7,6 +7,8 @@ test('contact validates required fields, email, telephone and message length',()
   assert.deepEqual(validateContact(fields),{});
   assert.ok(validateContact({...fields,email:'invalid'}).email);
   assert.ok(validateContact({...fields,phone:'abc'}).phone);
+  assert.ok(validateContact({...fields,phone:'-------'}).phone);
+  assert.ok(validateContact({...fields,phone:'1'.repeat(20)}).phone);
   assert.ok(validateContact({...fields,company:'  '}).company);
   assert.ok(validateContact({...fields,message:'x'.repeat(3001)}).message);
 });

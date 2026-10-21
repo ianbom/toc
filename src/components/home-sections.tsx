@@ -7,7 +7,7 @@ import { articles } from '@/data/articles';
 import { services } from '@/data/company';
 
 export function Hero() {
-  return <section className="home-hero photo-panel"><Image src="/assets/hero/toc-city.jpg" alt="Panorama kota yang digunakan pada situs resmi TOC, sebagai ilustrasi" fill priority sizes="100vw" className="panel-image"/><div className="photo-overlay"/><div className="container hero-content"><h1>Teknologi Tepat untuk Kebutuhan Profesional Anda</h1><p>Peralatan medis, pendidikan, laboratorium, dan industri. PT Tamara Overseas Corporindo mendukung kebutuhan teknologi institusi Anda.</p><div className="hero-actions"><ActionLink href="/tentang">Tentang Kami</ActionLink><ActionLink href="/kontak" outline>Diskusi Kebutuhan Anda</ActionLink></div></div></section>;
+  return <section className="home-hero photo-panel"><Image src="/assets/hero/toc-city.jpg" alt="Panorama kota yang digunakan pada situs resmi TOC, sebagai ilustrasi" fill priority sizes="1920px" className="panel-image"/><div className="photo-overlay"/><div className="container hero-content"><h1>Teknologi Tepat untuk Kebutuhan Profesional Anda</h1><p>Peralatan medis, pendidikan, laboratorium, dan industri. PT Tamara Overseas Corporindo mendukung kebutuhan teknologi institusi Anda.</p><div className="hero-actions"><ActionLink href="/tentang">Tentang Kami</ActionLink><ActionLink href="/kontak" outline>Diskusi Kebutuhan Anda</ActionLink></div></div></section>;
 }
 
 export function Challenges() {
@@ -16,15 +16,15 @@ export function Challenges() {
 }
 
 export function CompanySolution() {
-  return <section className="solution-section photo-panel"><Image src="/assets/hero/toc-city.jpg" alt="" fill sizes="100vw" className="panel-image"/><div className="photo-overlay"/><div className="container solution-content"><h2>TOC Hadir untuk Mendukung Kebutuhan Teknologi Profesional</h2><p>Pengadaan peralatan teknologi untuk pendidikan dan industri, distribusi alat kesehatan, serta layanan instalasi, pelatihan, dan perawatan. Dukungan yang berangkat dari kebutuhan institusi Anda.</p><ActionLink href="/tentang" outline>Pelajari Lebih Lanjut</ActionLink><Statistics/></div></section>;
+  return <section className="solution-section photo-panel"><Image src="/assets/hero/toc-city.jpg" alt="" fill sizes="1920px" className="panel-image"/><div className="photo-overlay"/><div className="container solution-content"><h2>TOC Hadir untuk Mendukung Kebutuhan Teknologi Profesional</h2><p>Pengadaan peralatan teknologi untuk pendidikan dan industri, distribusi alat kesehatan, serta layanan instalasi, pelatihan, dan perawatan. Dukungan yang berangkat dari kebutuhan institusi Anda.</p><ActionLink href="/tentang" outline>Pelajari Lebih Lanjut</ActionLink><Statistics/></div></section>;
 }
 
 export function ProductShowcase() {
-  return <section className="product-showcase section-pad"><div className="container"><div className="section-header"><div><h2>Produk TOC</h2><p>Ragam peralatan dan teknologi untuk kebutuhan medis,<br className="desktop-break"/> pendidikan, laboratorium, dan industri profesional.</p></div><ActionLink href="/produk" outline>Lihat Semua Produk</ActionLink></div><ProductCarousel/></div></section>;
+  return <section className="product-showcase section-pad"><div className="container"><div className="section-header"><div><h2>Produk TOC</h2><p>Ragam peralatan dan teknologi untuk kebutuhan medis,<br className="desktop-break"/> pendidikan, laboratorium, dan industri profesional.</p></div><ActionLink href="/produk" outline>Lihat Semua Produk</ActionLink></div><ProductCarousel/><div className="mobile-section-action"><ActionLink href="/produk" outline>Lihat Semua Produk</ActionLink></div></div></section>;
 }
 
 export function QualityStatement() {
-  return <section className="quality-section photo-panel"><Image src="/assets/hero/toc-city.jpg" alt="" fill sizes="100vw" className="panel-image"/><div className="photo-overlay"/><div className="container quality-content"><h2>Komitmen pada mutu, teknologi, dan pelayanan profesional. TOC menyediakan peralatan kesehatan, laboratorium, pendidikan, dan industri, didukung kerja sama tim serta layanan bagi kebutuhan pelanggan.</h2><SectorCarousel/></div></section>;
+  return <section className="quality-section photo-panel"><Image src="/assets/hero/toc-city.jpg" alt="" fill sizes="1920px" className="panel-image"/><div className="photo-overlay"/><div className="container quality-content"><h2>Komitmen pada mutu, teknologi, dan pelayanan profesional. TOC menyediakan peralatan kesehatan, laboratorium, pendidikan, dan industri, didukung kerja sama tim serta layanan bagi kebutuhan pelanggan.</h2><SectorCarousel/></div></section>;
 }
 
 export function StandardsSection() {
@@ -32,5 +32,5 @@ export function StandardsSection() {
 }
 
 export function ArticlePreview() {
-  return <section className="article-preview section-pad"><div className="container"><div className="section-header"><h2>Wawasan dan Informasi TOC</h2><ActionLink href="/artikel" outline>Lihat Artikel Lainnya</ActionLink></div><div className="article-grid">{articles.map(article=><ArticleCard key={article.slug} article={article}/>)}</div></div></section>;
+  return <section className="article-preview section-pad"><div className="container"><div className="section-header"><h2>Wawasan dan Informasi TOC</h2><ActionLink href="/artikel" outline>Lihat Artikel Lainnya</ActionLink></div><div className="article-grid">{articles.map(article=><ArticleCard key={article.slug} article={article}/>)}</div><div className="mobile-section-action"><ActionLink href="/artikel" outline>Lihat Artikel Lainnya</ActionLink></div></div></section>;
 }

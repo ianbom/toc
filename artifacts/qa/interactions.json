@@ -1,0 +1,16 @@
+{
+  "passed": [
+    "product filtering and reset",
+    "article category filtering and reset",
+    "FAQ open, close, categories and keyboard navigation",
+    "branch selection",
+    "sector carousel",
+    "mobile product carousel",
+    "mobile drawer open, focus trap, Escape and focus restoration",
+    "mobile navigation changes route and closes drawer",
+    "contact required validation and focus",
+    "contact invalid email validation; no external application opened",
+    "reduced-motion preference"
+  ],
+  "externalEmailDelivery": "Not attempted: unit-tested mailto generation; no email sent."
+}

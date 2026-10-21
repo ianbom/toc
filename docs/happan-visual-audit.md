@@ -10,6 +10,7 @@ Inspected in rendered Chrome on 2026-10-21. Evidence: `artifacts/reference/measu
 - Buttons: approximately 40px tall, uppercase action labels, pill outline or solid brand fill, arrow at right. Product navigation uses circular arrow controls. Cards use restrained 6-12px rounding, not large dashboard radii.
 - Desktop section rhythm: typically 120px outer gaps; large image/editorial sections use fixed composition heights. Light grey surface approximately #eee, white surfaces, dark overlays. The reference red is replaced by sampled TOC logo red #85251A; white/light/dark distribution is retained.
 - Responsive: tablet hero 40/54px; mobile hero 32/43.2px. Phone hero approximately 650px high. Full-width stacked hero buttons; 16px side gutters. Desktop homepage hero 800px high. Products remain a horizontal showcase rather than a generic vertical stack.
+- Detailed mobile measurements: section headings 24/31.2px, solution heading approximately 25.5/34.5px, editorial statement approximately 18.2/24.6px, article-card headings 20/26px, final CTA 24/28.8px. Inner-page banners are 400px at tablet and 250px on phone, not reduced full-screen heroes. Mobile challenge items form one column.
 
 ## Page inventories
 
@@ -38,10 +39,10 @@ Light header, breadcrumbs; gallery left and product title/details right (roughly
 Image banner with breadcrumbs/title; stacked image-and-text article previews in main column; categories/popular-article sidebar; pagination only when content requires it; image CTA/footer. Source has more articles than TOC; three TOC entries require no invented pagination.
 
 ### Article detail
-Inspected `https://happan.co.id/artikel/distributor-triplek-luar-jawa-cara-memilih-supplier-yang-siap-antarpulau/`. Light header, breadcrumbs, large title with date/category, editorial image and readable article body, related article carousel, shared CTA/footer. Preserve prose typography and heading hierarchy.
+Inspected `https://happan.co.id/artikel/distributor-triplek-luar-jawa-cara-memilih-supplier-yang-siap-antarpulau/`. Light header, 1080px content shell, left-aligned 44/44px weight-600 title, date/category, editorial image and readable article body, related articles, shared CTA/footer. Article surface is very light grey; title becomes 28px at tablet and 24px on phone. TOC's supplied article images are capped at their available width rather than stretched to 1080px.
 
 ### Contact `/kontak/`
-Image banner; split contact information and form. Form fields: company, business type, operational region, contact person, phone, email, message. Narrow copyright/social strip rather than full marketing footer/CTA. TOC branch information is an intentional additional requirement.
+Image banner; heading/intro split, followed by a four-column contact-information strip. Separate light-grey form section: tall image/title left, two-column fields right. Form fields: company, business type, operational region, contact person, phone, email, message. Narrow copyright/social strip rather than full marketing footer/CTA. TOC branch information and honest email-draft disclosure are intentional additional requirements.
 
 ## Interactions and accessibility
 

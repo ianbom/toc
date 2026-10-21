@@ -46,3 +46,16 @@ HTTP/development-host references were replaced only after successful retrieval o
 - Customer logos appear under Customer Kami on the source; no testimonials or endorsements are inferred. Partner logos are labeled as brands shown by TOC, not certifications.
 - CDAKB imagery is not presented as proof of currently valid certification.
 - The hero uses TOC's own 1920px city hero. No high-resolution clinical/company photograph was found; 667px product images are not stretched into full-screen photographs.
+- The skyline is source-site illustrative imagery, not a claim that TOC has an office in the city shown. The same high-resolution asset is reused across full-bleed panels because no equivalent company/equipment photograph was available.
+- The earthquake article image shows earthquake damage, not a simulator. The anniversary image is an illustrative customer-service portrait, not verified event documentation or an identified TOC employee.
+
+## Derived and Licensed Assets
+
+| Local path | Source / derivation |
+|---|---|
+| `/assets/brand/toc-logo-light.png` | Derived from the official logo above: retain the emblem; change right-hand lettering to white for dark surfaces. |
+| `/assets/fonts/stacksansheadline.ttf` | https://github.com/google/fonts/tree/main/ofl/stacksansheadline — variable font, SIL Open Font License; license included locally. |
+| `/assets/fonts/stacksanstext.ttf` | https://github.com/google/fonts/tree/main/ofl/stacksanstext — variable font, SIL Open Font License; license included locally. |
+| `/assets/icons/indonesia.svg` | Indonesia geometry from https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_110m_admin_0_countries.geojson — Natural Earth public-domain geography, simplified to a local outline. |
+
+Complete measured dimensions and formats are recorded in `artifacts/source/asset-dimensions.json`. No HAPPAN photo, logo, certificate, video, or product image is served by the application.

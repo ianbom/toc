@@ -14,11 +14,11 @@ export function Breadcrumbs({ items }: { items: { label: string; href?: string }
 }
 
 export function PageHero({ title, crumb, image = '/assets/hero/toc-city.jpg', className = '' }: { title: string; crumb: string; image?: string; className?: string }) {
-  return <section className={`page-hero photo-panel ${className}`}><Image src={image} alt="" fill priority sizes="100vw" className="panel-image"/><div className="photo-overlay"/><div className="container page-hero-content"><Breadcrumbs items={[{label:crumb}]}/><h1>{title}</h1></div></section>;
+  return <section className={`page-hero photo-panel ${className}`}><Image src={image} alt="" fill priority sizes="1920px" className="panel-image"/><div className="photo-overlay"/><div className="container page-hero-content"><Breadcrumbs items={[{label:crumb}]}/><h1>{title}</h1></div></section>;
 }
 
 export function ContactCTA({ title = 'Siap Mendukung Kebutuhan Teknologi Anda' }: { title?: string }) {
-  return <section className="contact-cta photo-panel"><Image src="/assets/hero/toc-city.jpg" alt="" fill sizes="100vw" className="panel-image"/><div className="photo-overlay"/><div className="container"><h2>{title}</h2><p>Diskusikan kebutuhan peralatan medis, pendidikan, laboratorium, atau industri Anda bersama tim PT Tamara Overseas Corporindo.</p><ActionLink href="/kontak">Hubungi Kami</ActionLink></div></section>;
+  return <section className="contact-cta photo-panel"><Image src="/assets/hero/toc-city.jpg" alt="" fill sizes="1920px" className="panel-image"/><div className="photo-overlay"/><div className="container"><h2>{title}</h2><p>Diskusikan kebutuhan peralatan medis, pendidikan, laboratorium, atau industri Anda bersama tim PT Tamara Overseas Corporindo.</p><ActionLink href="/kontak">Hubungi Kami</ActionLink></div></section>;
 }
 
 export function PageEnd() {

@@ -1,0 +1,212 @@
+[
+  {
+    "path": "public/assets/articles/syringe-safety.png",
+    "format": "PNG",
+    "width": 667,
+    "height": 515,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/articles/toc-anniversary.png",
+    "format": "PNG",
+    "width": 665,
+    "height": 775,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/brand/cdakb-toc.png",
+    "format": "PNG",
+    "width": 200,
+    "height": 200,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/brand/lkpp-catalog.png",
+    "format": "PNG",
+    "width": 1748,
+    "height": 1240,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/brand/toc-logo-light.png",
+    "format": "PNG",
+    "width": 450,
+    "height": 194,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/brand/toc-logo.png",
+    "format": "PNG",
+    "width": 450,
+    "height": 194,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/brand/toc-symbol.png",
+    "format": "PNG",
+    "width": 512,
+    "height": 512,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/clients/awal-bros.jpg",
+    "format": "JPEG",
+    "width": 250,
+    "height": 250,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/clients/hermina.jpg",
+    "format": "JPEG",
+    "width": 250,
+    "height": 250,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/clients/national-hospital.jpg",
+    "format": "JPEG",
+    "width": 250,
+    "height": 250,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/clients/pondok-indah.jpg",
+    "format": "JPEG",
+    "width": 250,
+    "height": 250,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/clients/rscm.jpg",
+    "format": "JPEG",
+    "width": 250,
+    "height": 250,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/company/service-evaluation.png",
+    "format": "PNG",
+    "width": 667,
+    "height": 515,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/company/service-installation.png",
+    "format": "PNG",
+    "width": 667,
+    "height": 515,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/company/service-medical.png",
+    "format": "PNG",
+    "width": 667,
+    "height": 515,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/company/service-spare-parts.png",
+    "format": "PNG",
+    "width": 667,
+    "height": 515,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/company/service-workshop.png",
+    "format": "PNG",
+    "width": 667,
+    "height": 515,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/company/toc-company.png",
+    "format": "PNG",
+    "width": 800,
+    "height": 533,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/hero/toc-city.jpg",
+    "format": "JPEG",
+    "width": 1920,
+    "height": 860,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/partners/armfield.png",
+    "format": "PNG",
+    "width": 500,
+    "height": 500,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/partners/chester.jpg",
+    "format": "JPEG",
+    "width": 300,
+    "height": 300,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/partners/denford.png",
+    "format": "PNG",
+    "width": 500,
+    "height": 500,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/partners/mts.png",
+    "format": "PNG",
+    "width": 500,
+    "height": 500,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/partners/nova.png",
+    "format": "PNG",
+    "width": 500,
+    "height": 500,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/partners/quanser.png",
+    "format": "PNG",
+    "width": 500,
+    "height": 500,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/partners/randox.png",
+    "format": "PNG",
+    "width": 500,
+    "height": 500,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/partners/unisis.png",
+    "format": "PNG",
+    "width": 500,
+    "height": 499,
+    "alpha": false
+  },
+  {
+    "path": "public/assets/products/chester-machine.png",
+    "format": "PNG",
+    "width": 350,
+    "height": 339,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/products/earthquake-simulator.png",
+    "format": "PNG",
+    "width": 667,
+    "height": 515,
+    "alpha": true
+  },
+  {
+    "path": "public/assets/products/medical-equipment.png",
+    "format": "PNG",
+    "width": 667,
+    "height": 515,
+    "alpha": true
+  }
+]

@@ -1,0 +1,43 @@
+
+> toc-corporate@1.0.0 build
+> next build
+
+▲ Next.js 16.4.2 (Turbopack)
+✓ Running next.config took 14ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 797ms
+  Running TypeScript ...
+  Finished TypeScript in 1662ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/17) ...
+  Generating static pages using 7 workers (4/17) 
+  Generating static pages using 7 workers (8/17) 
+  Generating static pages using 7 workers (12/17) 
+✓ Generating static pages using 7 workers (17/17) in 473ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /artikel
+├   /artikel/[slug]
+│ ├ ● /artikel/apa-itu-earthquake-simulator-unit
+│ ├ ● /artikel/mengapa-jarum-suntik-harus-diganti-setelah-dipakai
+│ └ ● /artikel/merayakan-46-tahun-pt-tamara-overseas-corporindo-jejak-sukses-dan-harapan-masa-depan
+├ ○ /kontak
+├ ○ /layanan
+├ ○ /produk
+├   /produk/[slug]
+│ ├ ● /produk/chester-machine-center
+│ ├ ● /produk/peralatan-medis
+│ ├ ● /produk/peralatan-pendidikan
+│ └ ● /produk/earthquake-simulator-unit
+├ ○ /robots.txt
+├ ○ /sitemap.xml
+└ ○ /tentang
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
